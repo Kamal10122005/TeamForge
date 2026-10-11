@@ -207,3 +207,17 @@ Developed as a full-stack project to explore Java backend development, React, My
 ## 📄 License
 
 No license has been specified yet. Add a license if you intend to permit others to reuse or distribute this project.
+
+TO Start the Frontend:
+
+cd "C:\Users\Salai Kamalavassan.S\Desktop\TeamForge\frontend"
+npm run dev
+
+To Start Backend:
+
+cd "C:\Users\Salai Kamalavassan.S\Desktop\TeamForge\backend"
+
+$env:TEAMFORGE_DB_PASSWORD = "root"
+
+javac -cp "lib\mysql-connector-j-26.7.0.jar" -d . src\Main.java
+java -cp ".;lib\mysql-connector-j-26.7.0.jar" Main
